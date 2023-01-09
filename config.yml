@@ -2,47 +2,41 @@
 # If you need help, join our discord server here: https://discord.gg/zv6maQRah3
 
 # Bot Info's
-token: 'ODg1ODQ5MTU0NTIwMjI3ODUx.YTtBUA.sgBkpClBDGp16XCMegevKwTYRxU' # Put bot token here, check https://discord.dev to create and get bot token
+token: 'ODg1ODQ5MTU0NTIwMjI3ODUx.YTtBUA.sgBkpClBDGp16XCMegevKwTYRxU'
 botstatus:
-  enable: true # Enable Custom Status (MUST BE "true" OR "false")
-  text: '💻ENGINE GAME HOSTING' # Bot Status Message
-  type: 'WATCHING' # Bot Status Type. Ex: PLAYING, WATCHING, LISTENING, STREAMING
+  enable: 
+  text: 'HOSTING'
+  type: ''
 
-# Channel and RefreshTime Configuration
-channel: '941241790898516008' # Put channel id here where the embed will be sended
-refreshtime: 10 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECOMMENDED MORE THAN 20 SECONDS)
 
-# Panel Info's
+channel: '' #
+refreshtime: 10
+
 panel:
-  url: 'https://console.mariclecraft.xyz' # Put panel url here. Example: https://panel.purenodes.net
-  adminkey: '0OJzr4mOe3UdGq2xLa2JlbKPneoSJwT1TkC6uGPvcaXKas0g' # Put Admin Apikey here. check https://your.host.url/admin/api (your.host.url is an example link) to get the Admin ApiKey
-
-# Embed Configuration
+  url: 'https://console.mariclecraft.xyz'
+  adminkey: '0OJzr4mOe3UdGq2xLa2JlbKPneoSJwT1TkC6uGPvcaXKas0g'
 embed: 
-  title: 'AfterCloud Uptime Panel
-' # Embed Title here. Ex: PureNodes Stats
-  color: '00fdff' # Embed Hex color here.
+  title: ''
+  color: '00fdff'
   description: 
-    enable: false # Enable Embed Description (MUST BE "true" OR "false")
-    text: 'EMBED DESCRIPTION' # Embed Description
+    enable: false
+    text: 'EMBED DESCRIPTION'
   footer: 
-    enable: true # Enable Embed Footer (MUST BE "true" OR "false")
-    text: 'Uptime System' # Embed Footer
-  timestamp: true # Enable Embed TimeStamp (MUST BE "true" OR "false")
-
-# Status Message Configuration
+    enable:
+    text: 'Uptime System'
+  timestamp: 
 status:
-  online: ':green_circle: Up' # Message if the status is Online
-  offline: ':red_circle: Down' # Message if the status is Offline
-  check: ':orange_circle: Checking' # Message if the status is Checking
+  online: ':green_circle: Up'
+  offline: ':red_circle: Down'
+  check: ':orange_circle: Checking'
 
 # Node Resource
 resource:
-  enable: true # Enable resource option ex [Ram: 2gb/5gb] bellow node name (MUST BE "true" OR "false")
-  servers: true # Enable Total server on the node to resource text (MUST BE "true" OR "false")
-  allocations: true # Enable Total Allocation on the node to resource text (MUST BE "true" OR "false")
-  location: true # Enable location short name on the node to resource text (MUST BE "true" OR "false")
-  unit: 'percent' # Must be 'mb', 'gb', or 'percent'
+  enable: true
+  servers: true
+  allocations: true
+  location: true
+  unit: 'percent''
 
 # Developers feature
 debug: false # Enable and Disable debug log to console
